@@ -407,6 +407,16 @@ ul.pagination { -ms-flex-pack: center; justify-content: center; }
 
 .modular-text .columns.left { -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
 
+.modular-frame { text-align: center; }
+
+.modular-frame.offset-box .frame-box { margin: -3rem -1.4rem 3rem; padding: 1rem 1rem; background: #fff; box-shadow: 0 0 75px 0 rgba(69, 77, 93, 0.1); }
+
+.modular-frame .frame-box { padding: 3rem 0; }
+
+.modular-frame .frame-box > p { max-width: 600px; margin-left: auto; margin-right: auto; }
+
+.modular-frame .frame-box.columns.left { -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+
 .vertical-img { white-space: nowrap; }
 
 .vertical-img span { display: inline-block; height: 100%; vertical-align: middle; }
